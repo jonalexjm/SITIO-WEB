@@ -1,0 +1,15 @@
+header {
+  height: 200px;
+  background: red; }
+
+/*hacemos un import de todos los styles*/
+/*siempre colocamos un _ cuando vamos a nombrar el archivo por ejemplo _header.scss*/
+section {
+  height: 200px;
+  background: blue; }
+
+footer {
+  height: 200px;
+  background: green; }
+
+/*# sourceMappingURL=organizar.css.map */

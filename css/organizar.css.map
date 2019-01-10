@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,MAAM;EACF,MAAM,EAAE,KAAK;EACb,UAAU,ECDH,GAAG;;ACCd,yCAAyC;AACzC,qFAAqF;AAErF,OAAO;EACH,MAAM,EAAE,KAAK;EACb,UAAU,EDLF,IAAI;;ACQhB,MAAM;EACF,MAAM,EAAE,KAAK;EACb,UAAU,EDTA,KAAK",
+"sources": ["../sass/_header.scss","../sass/_variableimport.scss","../sass/organizar.scss"],
+"names": [],
+"file": "organizar.css"
+}

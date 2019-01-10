@@ -1,0 +1,14 @@
+@import "variableimport";
+@import "header";
+/*hacemos un import de todos los styles*/
+/*siempre colocamos un _ cuando vamos a nombrar el archivo por ejemplo _header.scss*/
+
+section{
+    height: 200px;
+    background: $colorTres;
+}
+
+footer{
+    height: 200px;
+    background: $colorCuatro;
+}
