@@ -1,9 +1,11 @@
 $colorUno: yellow;
+$colorDos: red;
+/*se declara primero las variables y luego se utiliza en el archivo html*/
 
 section{
     background: $colorUno;
     h1{
-        background: red;
+        background: $colorDos;
     }
     h2{
         background: purple;
