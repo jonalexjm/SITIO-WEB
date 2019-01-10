@@ -1,5 +1,11 @@
-h1 {
-  color: yellow; }
+section {
+  background: blueviolet; }
+  section h1 {
+    background: red; }
+  section h2 {
+    background: purple; }
+  section p {
+    background: yellowgreen; }
 
 footer {
   background: #444; }
