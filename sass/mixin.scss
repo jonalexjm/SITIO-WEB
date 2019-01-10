@@ -1,21 +1,17 @@
-.cuadrado-1{
-    background-color: #444;
-    width: 200px;
+@mixin cuadrado ($Fondo, $ancho:200px){/*$ancho:200px queda 200px por defecto o si se olvida*/
+    background-color: $Fondo;
+    width: $ancho;
     height: 200px;
     margin-top: 5px;
     padding: 10px;
+    
+}
+.cuadrado-1{
+    @include cuadrado(#111, 300px);
 }
 .cuadrado-2{
-    background-color: #444;
-    width: 200px;
-    height: 200px;
-    margin-top: 5px;
-    padding: 10px;
+    @include cuadrado(#222);
 }
 .cuadrado-3{
-    background-color: #444;
-    width: 200px;
-    height: 200px;
-    margin-top: 5px;
-    padding: 10px;
+    @include cuadrado(#333, 500px);
 }
